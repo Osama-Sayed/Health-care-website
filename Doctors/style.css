@@ -1,0 +1,112 @@
+/*                                          */
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic",sans-serif;
+}
+/* ----------------------- Preloading page ----------------------- */
+#loader { height: 1500px;width: 1500px;background-color: white;position: fixed;top: 50%;left: 50%;transform: translate(-50%,-50%);z-index: 999;transition: all 2s}
+#loader img{ position: absolute;top: 50%; left: 50%;transform: translate(-50%,-50%)}
+/* ----------------------- Links And Logo ----------------------- */
+ul
+{
+ list-style-type: none;
+ float: right;
+ margin-top: 40px;
+ margin-right:10px;
+ font-size: 15px;
+    
+}
+
+ul li{ display: inline-block;}
+ul li a { text-decoration: none; color:floralwhite ;padding: 15px 20px; border: 1px solid #6D6D6D;border-radius:5px ;transition: .8s ease; font-family: Century Gothic; font-weight: 600 }
+ul li a:hover{
+ background-color: #fff; color:#0c88cd; 
+}
+#logo {margin-left: 60px;width: 140px }
+.links {background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));background-color:#74b2d4 ;width: 1349px;}
+#activ{background-color: #fff; color:#0c88cd; }
+
+/* ----------------------- First div -----------------------*/
+#first { background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("back.png");width: 1349px;height: 563px;}
+#first span {font-size: 70px;color: white;text-transform:uppercase;display: block;padding-top: 380px;font-weight: 600;font-family: Century Gothic;padding-left: 350px}
+/* ----------------------- Third div -----------------------*/
+#third{background-color: white;height:465px;}
+#third p {text-align: center; font-size: 45px;padding-top: 50px;text-transform:uppercase;font-weight: 600;} 
+#fimg {background-image:url("1.png");height: 300px;width: 350px;margin: 60px 0px 0px 100px; display: inline-block;} 
+#simg {background-image:url("2.png");height: 300px;width: 350px;margin: 60px 0px 0px 50px; display: inline-block;;}
+#timg {background-image:url("3.png");height: 300px;width: 350px;margin: 60px 0px 0px 50px; display: inline-block;}
+/* ----------------------- Text for first img  -----------------------*/
+#t1 { background-color:#f4f4f4 ;width: 350px;margin-left: 100px;line-height: 30px;text-align: center;display: inline-block}
+#t1 p span { font-size: 30px;text-align: left ;margin: 0px;padding: 0px;display:block;padding: 30px 0px 30px 20px;}
+/* ----------------------- Text for second img  -----------------------*/
+
+#t2 { background-color:#f4f4f4 ;width: 350px;margin-left: 50px;line-height: 30px;text-align: center;display: inline-block;margin-top: 20px  }
+#t2 p span { font-size: 30px;text-align: left ;margin: 0px;display:block;padding: 30px 0px 30px 0px;text-align: center}
+/* ----------------------- Text for Third img  -----------------------*/
+
+#t3 { background-color:#f4f4f4 ;width: 350px;margin-left: 50px;line-height: 30px;text-align: center;display: inline-block}
+#t3 p span { font-size: 30px;text-align: left ;margin: 0px;display:block;padding: 30px 0px 30px 20px;}
+/* ----------------------- cont Third div  -----------------------*/
+#third2{background-color: white;height:465px;}
+#fourimg {background-image:url("4.png");height: 300px;width: 350px;margin: 60px 0px 0px 100px; display: inline-block;} 
+#fiveimg {background-image:url("5.png");height: 300px;width: 350px;margin: 60px 0px 0px 50px; display: inline-block;}
+#siximg  {background-image:url("6.png");height: 300px;width: 350px;margin: 60px 0px 0px 50px; display: inline-block;}
+/* ----------------------- cont Text for Third img  -----------------------*/
+/* ----------------------- Text for first img  -----------------------*/
+#t4 { background-color:#f4f4f4 ;width: 350px;margin-left: 100px;line-height: 30px;text-align: center;display: inline-block}
+#t4 p span { font-size: 25px;text-align: left ;margin: 0px;padding: 0px;display:block;padding: 30px 0px 30px 20px;}
+/* ----------------------- Text for second img  -----------------------*/
+
+#t5 { background-color:#f4f4f4 ;width: 350px;margin-left: 50px;line-height: 30px;text-align: center;display: inline-block}
+#t5 p span { font-size: 30px;text-align: left ;margin: 0px;display:block;padding: 30px 0px 30px 20px;}
+
+/* ----------------------- Text for Third img  -----------------------*/
+
+#t6 { background-color:#f4f4f4 ;width: 350px;margin-left: 50px;line-height: 30px;text-align: center;display: inline-block;}
+#t6 p span { font-size: 29px;text-align: left ;margin: 0px;display:block;padding: 30px 0px 30px 0px;}
+
+
+/* ----------------------- Last Div  -----------------------*/
+#last {background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));background-color:#74b2d4;opacity: .7; ;margin-top: 70px;height: 770px}
+#last #lmid1 { background-color:#99c2d9;; height: 170px;width:550px ;margin-left: 400px }
+#last #lmid1 p {color:white ; font-size: 50px;line-height: 170px;text-align: center;font-family: "Roboto",sans-serif}
+#last #lmid2 { background-color:#e4e4e4;; height: 600px;width:550px ;margin-left: 400px }
+#last #lmid2 form { line-height: 50px;padding: 1px 0px 0px 50px ;}
+#last #lmid2 form input { display: block;margin: 40px 0px 0px 0px;width: 450px;height: 40px;text-align: center;font-size: 20px}
+
+/* ----------------------- Footer  -----------------------*/
+#end {background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));background-color:#74b2d4 ;height: 95px;padding:10px 0px 0px 500px }
+footer #end img {display: inline-block;padding: 10px 0px 0px 30px }
+
+
+/* ----------------------- media tag -----------------------*/
+@media screen and (max-width:1365px){
+    
+    #third{width:  100%} 
+    #fimg {width: 33%}
+    #simg {width: 33%}
+    #timg {width: 33%;margin:400px 0px 0px 100px}
+    #t1 {width: 33%}
+    #t2 {width: 33%}
+    #t3 {width: 33%;margin:310px 0px 0px 100px}
+    
+    #third2{width:  100%} 
+    #fourimg{width: 33%}
+    #fiveimg{width: 33%}
+    #siximg{width: 40%;margin:490px 0px 0px 95px}
+    #t4 {width: 33%}
+    #t5 {width: 33%}
+    #t6 {width: 33%;margin:310px 0px 0px 100px}
+    #second{width: 100%;height: 600px}
+    #second button a { font-size: 15px; border-radius: 50px;padding: 10px}
+    #second button{border-radius: 50px;padding: 10px;margin-left: 45%}
+    #first {width: 100%}
+    #last { width: 100%}
+    .links{width: 100%}
+    .links ul li a { padding: 5px 10px; }
+    #end {width: 100%;padding-left: 40% }
+}
+
+

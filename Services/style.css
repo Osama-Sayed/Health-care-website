@@ -1,0 +1,167 @@
+/*                                          */
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic",sans-serif;
+}
+/* ----------------------- Preloading page ----------------------- */
+#loader { height: 1500px;width: 1500px;background-color: white;position: fixed;top: 50%;left: 50%;transform: translate(-50%,-50%);z-index: 999;transition: all 2s}
+#loader img{ position: absolute;top: 50%; left: 50%;transform: translate(-50%,-50%)}
+/* ----------------------- Links And Logo ----------------------- */
+ul
+{
+ list-style-type: none;
+ float: right;
+ margin-top: 40px;
+ margin-right:10px;
+ font-size: 15px;
+    
+}
+
+ul li{ display: inline-block;}
+ul li a { text-decoration: none; color:floralwhite ;padding: 15px 20px; border: 1px solid #6D6D6D;border-radius:5px ;transition: .8s ease; font-family: Century Gothic; font-weight: 600 }
+ul li a:hover{
+ background-color: #fff; color:#0c88cd; 
+}
+#logo {margin-left: 60px;width: 140px }
+.links {background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));background-color:#74b2d4 ;width: 1349px;}
+#activ{background-color: #fff; color:#0c88cd; }
+
+/* ----------------------- First Div ----------------------- */
+#first {background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("serv.png");height: 565px;width: 1349px;text-transform: uppercase;}
+#first p {color: white;font-size: 70px;padding-left: 690px;padding-top: 110px;font-weight: 600}
+#first span {color: white;font-size: 30px;padding-left: 1120px;font-weight: 600}
+
+/* ----------------------- Second Div ----------------------- */
+
+#second p{font-size: 60px;color: #25688e;text-align: center;margin: 50px ;text-transform: capitalize;}
+#second img { padding:0px 0px 10px 0px;display: inline-block;float:left;transition: .2s;}
+#second img:hover{transform: scale(1.1);}
+#second #discr { display: inline-block;background-color: #e4e4e4;margin:0px 0px 10px 0px;height: 301px;width: 799px}
+#second #discr span {font-size: 28px;margin:0px;display: block; color: #25688e}
+#second #discr p { margin: 10px 0px 0px 5px;float: left;font-size: 15px;line-height: 45px;display: inline-block;color: black}
+#second #discr p a {text-decoration: none; color: #25688e;font-size: 22px}
+
+
+/* ----------------------- third Div ----------------------- */
+#third { background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));background-color:#74b2d4;margin-top: 50px;padding-left: 50px; }
+#third img { padding-left: 50px;transition: .2s;padding-top: 50px; }
+#third img:hover { transform: scale(1.1);}
+#third p { padding: 50px 50px 0px 50px;color: white;font-size: 80px;text-align: center;}
+#third a{ text-decoration: none;padding: 10px 0px 0px 50px;display:inline-block;width: 350px;color: white;font-size: 19px;text-align: center;line-height: 25px;margin-bottom: 50px}
+ /* ----------------------- Calculate BIM ----------------------- */
+#bim {background-color:#5b8eaa ;width: 1349px;}
+#bim h1{text-align: center;padding: 30px 0px 40px 0px;color: snow;font-size:50px}
+#in { margin:20px 0px 10px 580px;padding: 10px;font-size: 18px;border-radius: 10px }
+#bim p {padding-bottom: 20px;padding:0px 20px 20px 450px; font-size: 20px;display: inline-block;font-size: 20px;font-weight: 600;color:whitesmoke}
+#f{padding: 50px 0px 10px 0px}
+#out {margin-left: 20px;padding: 5px;font-size: 18px;border-radius: 10px}
+#out2 {padding: 5px;font-size: 18px;border-radius: 10px}
+#butt {margin:20px 0px 30px 620px;background-color: #fff; color:#0c88cd;padding: 10px; font-size: 17px;border-radius: 40px }
+#butt2  {margin:20px 0px 30px 660px;background-color: #fff; color:#0c88cd;padding: 10px; font-size: 17px;border-radius: 40px }
+/* ----------------------- Fourth Div ----------------------- */
+#pharmacy {background-color: #337aa0}
+#pharmacy p{font-size: 50px;color: snow;text-align: center;text-transform: capitalize;padding: 50px 0px 40px 0px;font-weight: 600}
+#pharmacy img { padding-left: 200px;transition: .2s;padding-top: 50px;margin-bottom: 50px }
+#pharmacy img:hover { transform: scale(1.1);}
+/* ----------------------- Take Offers  -----------------------*/
+#offer{margin:15px 0px 0px 550px }
+#offer p {color: dimgray; font-size: 50px;padding: 20px 0px 50px 20px;font-weight: 600}
+#offer form input {width: 300px; height: 30px;margin: 0px 20px 0px 0px;background-color:gainsboro;font-size: 20px;border-radius: 5px}
+#send {     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-color: #74b2d4; color: white; font-size: 20px; width: 200px;height: 50px;border-radius: 40px;margin-bottom: 80px;margin-left: 50px}
+/* ----------------------- Footer  -----------------------*/
+#end {background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));background-color:#74b2d4 ;height: 95px;padding:10px 0px 0px 500px }
+footer #end img {display: inline-block;padding: 10px 0px 0px 30px }
+
+
+
+
+/* ----------------------- media tag -----------------------*/
+@media screen and (max-width:1365px){
+    
+  
+    #last { width: 100%}
+    .links{width: 100%}
+    .links ul li a { padding: 5px 10px; }
+      #first {width: 100%}
+    #first p{padding: 300px 0px 20px 0px;}
+    #first span{padding: 10px;font-size: 15px}
+    #second {width: 100%}
+    #second p {font-size: 50px}
+    #second img { width: 100% }
+    #second  #discr { width: 100%; }
+    
+    /* ----------------------- third Div ----------------------- */
+#third { width: 100% }
+#third img { padding:0px 10% 0px 10%;width: 100%;}
+    #third #3links {display: none}  
+    #pharmacy {width:100%}
+  
+     /* ----------------------- Calculate BIM ----------------------- */
+#bim {width: 100%}
+#bim h1{text-align: left;padding: 30px 0px 40px 50px;color: snow;font-size:40px}
+#in { margin:20px 0px 10px 30%;padding: 10px;font-size: 18px;border-radius: 10px }
+#bim p {padding-bottom: 20px;padding:0px 20px 20px 10%;display: inline-block;font-size: 18px;font-weight: 600;color:whitesmoke}
+#out {margin-left: 20px;padding: 5px;font-size: 16px;border-radius: 10px}
+#out2 {padding: 5px;font-size: 16px;border-radius: 10px}
+#butt {margin:20px 0px 30px 35%;background-color: #fff; color:#0c88cd;padding: 10px; font-size: 17px;border-radius: 40px }
+#butt2  {margin:20px 0px 30px 40%;background-color: #fff; color:#0c88cd;padding: 10px; font-size: 17px;border-radius: 40px }
+    
+    
+    /* ----------------------- Take Offers  -----------------------*/
+#offer{margin:15px 0px 0px 30% }
+#offer p {color: dimgray; font-size: 50px;padding: 20px 0px 50px 20px;font-weight: 600}
+#offer form input {width: 300px; height: 30px;margin: 0px 20px 0px 0px;background-color:gainsboro;font-size: 20px;border-radius: 5px}
+#send {     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-color: #74b2d4; color: white; font-size: 20px; width: 200px;height: 50px;border-radius: 40px;margin-bottom: 80px;margin-left: 50px}
+    
+    #end {width: 100%;padding-left: 40% }
+}
+
+@media screen and (max-width:700px){
+    #first {width: 100%}
+    #first p{padding: 300px 0px 20px 30px;font-size: 30px}
+    #first span{padding-left: 40px;font-size: 15px}
+      #second {width: 100%}
+    #second p {font-size: 30px}
+    #second img { width: 100% }
+    #second  #discr { width: 100%;height: 500px}
+    #second  #discr p {font-size: 15px }
+    #pharmacy {width:100%}
+    #pharmacy p {font-size: 30px}
+    #pharmacy img {padding: 10px 0px 20px 30px ;margin: 10px}
+     /* ----------------------- Calculate BIM ----------------------- */
+#bim {width: 100%}
+#bim h1{padding: 30px 0px 40px 0px;font-size:30px}
+#in { margin:20px 0px 10px 35%;padding: 5px;font-size: 15px;border-radius: 10px }
+#bim p {padding-bottom: 20px;padding:0px 20px 20px 20%; font-size: 15px;display: inline-block;font-weight: 600;color:whitesmoke}
+#f{padding: 50px 0px 10px 0px}
+#out {margin-left: 15px;padding: 5px;font-size: 15px;border-radius: 10px}
+#out2 {padding: 5px;font-size: 15px;border-radius: 10px}
+#butt {margin:20px 0px 30px 40%;background-color: #fff; color:#0c88cd;padding: 5px; font-size: 14px;border-radius: 40px }
+#butt2  {margin:20px 0px 30px 45%;background-color: #fff; color:#0c88cd;padding: 5px; font-size: 14px;border-radius: 40px }
+    
+    
+        /* ----------------------- Take Offers  -----------------------*/
+#offer{margin:15px 0px 0px 30% }
+#offer p {color: dimgray; font-size: 30px;padding: 20px 0px 50px 20px;font-weight: 600}
+#offer form input {width: 200px; height: 30px;margin: 0px 20px 0px 0px;background-color:gainsboro;font-size: 20px;border-radius: 5px}
+#send {     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-color: #74b2d4; color: white; font-size: 20px; width: 100px;height: 40px;border-radius: 40px;margin-bottom: 80px;margin-left: 50px}
+    
+    
+    #last { width: 100%}
+    .links{width: 100%}
+    .links ul li{width: 100%;margin: 10px;}
+    .links ul li a { padding: 5px 10px; }
+    #end {width: 100%;padding-left: 0%;font-size: 12px }
+    
+}
+@media screen and (max-width:415px){
+     #second  #discr { width: 100%;height: 800px}
+    
+    
+    
+}

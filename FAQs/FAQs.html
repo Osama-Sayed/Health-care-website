@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="This FAQs page for Tabiby website which conten the most question we get from visitors">
+    <title>Tabiby FAQs </title>
+    <link rel="icon" href="../Home/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+     <header>
+            <!-- ******************* Header ******************* -->
+<div class="links">
+                <ul>
+                    <li><a href="../Home/Home.html">Home</a></li>
+                    <li><a href="../Services/Services.html">Services</a></li>
+                    <li><a href="../Doctors/Doctors.html">Doctors</a></li>
+                    <li><a  id="activ" href="FAQs.html">FAQs</a></li>
+                    <li><a href="../registration/registration.html">Sign Up</a></li>
+                    <li><a href="../Login/Login.html">Login</a></li>
+                    <li><a href="../contact us/Contact.html">Contact us</a></li>
+                </ul>
+                <img  alt="Logo" src="../Home/Logo.png" id="logo"/>
+         </div>
+         
+           <!-- *************************** First  Div *************************** -->  
+         
+         <div id="first"><p>Frequently asked Questions</p><span>FAQs</span> </div>
+         
+         <div id="things" >Things you may need to know </div>
+         
+           <!-- *************************** Q And A *************************** -->    
+         
+         <div id="q1"> How can I get nutrition advice about a medical condition ? </div>   <input type="button" value="+" id="b1" onclick="showAndHide1()">  
+         <div id="a1"> <b>Counseling :- </b> <ol> <li>Talk with your doctor or other health professional about referring you to a registered dietitian nutritionist (RDN). An RDN can provide personalized dietary advice taking into consideration your health status (such as other medical conditions), lifestyle, and food likes and dislikes.</li>
+             <li><a href="https://www.eatright.org/find-an-expert">The Academy of Nutrition and Dietetics</a> (link is external) has a Find a Registered Dietitian Nutritionist service that allows you to locate an RDN in your geographical area with particular specialties (such as weight control, diabetes, digestive disorders, etc.). Be advised that this list may not include all RDNs in your area.</li>
+             <li>Check with your local health department, hospitals, clinics, and<a href="http://nifa.usda.gov/partners-and-extension-map"> Cooperative Extension </a>for classes such as those on weight management, diabetes, etc.</li>
+             </ol>  
+         <b>Web information :- </b> <ol> <li>For background information, you may find it helpful to look on the Web. Information obtained online, however, does not take the place of personalized advice from a qualified health professional, and some websites have inaccurate or misleading information. In looking for reliable information on the Web, you may want check out our <a href="https://www.nutrition.gov/nutrition-and-health-issues">Nutrition and Health Issues </a>section.</li> </ol>
+         </div>
+         
+         <div id="q2">I have been diagnosed with kidney disease. Can I have a list of foods that are high in phosphorus?</div> <input type="button" value="+" id="b2" onclick="showAndHide2()">
+    
+         <div id="a2"><p>The USDA National Nutrient Database for Standard Reference allows you to create nutrient lists of foods sorted in descending order (high to low) of phosphorus, potassium, protein content, etc. To create a list :-</p>
+         <ol> <li>Start by going to the Nutrients List tab on the USDA Food Composition Databases website.</li>
+             <li>Enter "Phosphorus" as the "First Nutrient".</li>
+             <li>Under "Food Subset", you have the option to select "All Foods", or an "Abridged List", which is a shorter list of about 1,000 foods commonly eaten in the United States.</li>
+             <li>Under "Sort by", select "Nutrient Content" to get a list of foods in descending order (from highest to lowest in phosphorus content).</li>
+             <li>Click "Go".</li>
+             </ol>
+         </div>
+         
+         <div id="q3">I just found out I have diabetes and need information to help me eat right. </div> <input type="button" value="+" id="b3" onclick="showAndHide3()">
+         <div id="a3"><p>NIH's National Diabetes Education Program is a great resource. You also may want to take a look at the Center For Disease Control's Tasty Recipes for People with Diabetes and Their Families (PDF 1MB). Remember, these resources do not take the place of consultation with your health care providers, including a Registered Dietitian.</p></div>
+         
+         
+         <div id="q4">Is it true that men can get osteoporosis? I thought it just affect women.</div> <input type="button" value="+" id="b4" onclick="showAndHide4()">
+         
+         <div id="a4"><p>Even though it is most often associated with women, men can also develop osteoporosis, a condition in which the bones become fragile and can break easily. In fact, based on data from the Center for Disease Control and Prevention (CDC), it is estimated that by 2020, 3.3 million men will have osteoporosis. See Osteoporosis in Men and the NIH  <a href="https://www.bones.nih.gov/">Osteoporosis and Related Bone Diseases National Resource Center</a> for more information, including steps to help prevent it.</p></div>
+         
+         <div id="q5">What is the difference between a food allergy and a food intolerance?</div> <input type="button" value="+" id="b5" onclick="showAndHide5()">
+         <div id="a5"><p>Read about <a href="https://www.iddba.org/training-materials/pdfs/foodallergy.aspx?ext=.pdf">Food Allergy: An Overview</a> (link is external) (PDF|1.75 MB) from the National Institute of Allergy and Infectious Diseases. Besides discussing the difference, it explains that food allergies can cause very serious reactions and why it is so important for people with true food allergies to have these allergies identified by a doctor.</p></div>
+         
+         
+         <div id="q6">What are the most common foods that people are allergic to?</div> <input type="button" value="+" id="b6" onclick="showAndHide6()">
+         <div id="a6"> <p>A consumer resource from the FDA,<a href="https://www.fda.gov/Food/ResourcesForYou/Consumers/ucm079311.htm"> Food Allergies: What You Need to Know,</a> lists the most common foods to cause allergies as milk, eggs, fish, crab, lobster, shrimp, almonds and other tree nuts, and peanuts (one of the chief foods responsible for severe anaphylaxis).</p> </div>
+         
+           <!-- *************************** Leave question *************************** -->    
+         <div id="leave"> <p>Leave Your Question</p> 
+         <form> <input type="text" name="Name" placeholder="Enter Your Name"> <input type="email" name="Email" placeholder="Enter Your Email">
+         <br><br>   <textarea cols="102"  rows="10" ></textarea> </form>
+             <input id="send" type="submit" value="Send">
+         </div>
+          <!-- *************************** Footer *************************** -->     
+         
+         
+         
+            <footer> <div id="end"><a target="_blank" href="https://twitter.com/?lang=en"><img src="../Home/twitter1.png" onmouseover="this.src='../Home/twitter2.png'" onmouseout="this.src='../Home/twitter1.png'"> </a> <a target="_blank" href="https://www.linkedin.com/"><img src="../Home/linkedin1.png" onmouseover="this.src='../Home/linkedin2.png'" onmouseout="this.src='../Home/linkedin1.png'"></a> <a target="_blank" href="https://www.instagram.com/?hl=en"><img src="../Home/instigarm1.png" onmouseover="this.src='../Home/instigarm2.png'" onmouseout="this.src='../Home/instigarm1.png'"></a> <a target="_blank" href="https://www.facebook.com/" target="_blank"><img src="../Home/Facebook1.png" onmouseover="this.src='../Home/Facebook2.png'" onmouseout="this.src='../Home/Facebook1.png'"></a> <p> &copy All Copyright Saved 2018, Fci (2017/2021) Web project.</p> </div></footer>
+    </header>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+    
+</html>    
